@@ -39,9 +39,23 @@ progress {
 template {
   display: none;
 }
+
+.topictile{
+  padding: 1rem;
+  width: 100%;
+  border : 0.05rem solid #cfcfcf;
+  margin-top: 0.2rem;
+  border-radius : 0.25rem;
+}
+
+.topictile:hover{
+  box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+}
+
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -113,6 +127,108 @@ textarea {
   font: inherit;
   margin: 0;
 }
+
+header{
+  line-height: 1.6;
+}
+
+header h3{
+  padding: 0;
+  margin: 0;
+}
+
+.row{
+  margin: 0;
+  padding: 0;
+}
+
+.col{
+  padding: 0;
+}
+
+code{
+  padding: 0.15rem !important;
+}
+
+.linker{
+  text-align: center;
+}
+
+.previous{
+  color: white;
+  background: #24cb7c;
+  border: none;
+  font-size: 0.85em;
+  padding: 0.6rem;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+}
+
+.home{
+  background: #cfcfcf;
+  border-radius: 0.2rem;
+  border: 0;
+  font-size: 0.85em;
+  padding: 0.6rem;
+  margin: 0.2rem;
+}
+
+.previous:hover{
+  color: white;
+}
+
+.next{
+  border-radius: 0.2rem;
+  border:0;
+  color: white;
+  background: #0248ff;
+  font-size: 0.85em;
+  padding: 0.6rem;
+  margin: 0.2rem;
+}
+
+.next:hover{
+  color: white;
+}
+
+.intro{
+  text-align: center;
+  background: #17242a;
+  color: white;
+}
+
+.introheading{
+  font-size: 2em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #3aafa9;
+}
+
+.introbutton{
+  background: #3aafa9;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.intro a{
+  text-decoration: none;
+}
+
+header a{
+  color: white;
+}
+
+header a:hover, header a:visited, header a:active{
+  color: white;
+  text-decoration: none;
+}
+
+footer{
+  background: #212121;
+  color: #fff;
+  
+}
+
 optgroup {
   font-weight: 700;
 }
@@ -618,5 +734,9 @@ pre tt:after {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+
+  .introheading{
+    font-size: 1.5em;
   }
 }

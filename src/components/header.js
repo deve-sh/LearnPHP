@@ -5,28 +5,34 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
+      background: `#17242a`,
+      color: `#ffffff`
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `1rem`,
       }}
+      className = 'row'
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+      <div className='col col-sm-6'>
+        <h3 className='heading'>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </h3>
+      </div>
+      <div className='col col-sm-6' style={{color: 'white',textAlign:'right'}}>
+        <a href='https://github.com/deve-sh' target='_blank'>Github</a>
+      </div>
     </div>
   </header>
 )
