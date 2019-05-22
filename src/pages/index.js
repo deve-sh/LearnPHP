@@ -1,5 +1,5 @@
 /*
-  Web App For Tutorials for PHP.
+  Web App For PHP Tutorials.
   @author : Devesh Kumar
   Built Using : Gatsby
 */
