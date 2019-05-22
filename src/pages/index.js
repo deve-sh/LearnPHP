@@ -29,6 +29,7 @@ const TileList = (props) => {
       <Link to='/conditionals'><Tile>Conditionals</Tile></Link>
       <Link to='/basicarrays'><Tile>Basic Arrays</Tile></Link>
       <Link to='/assocarrays'><Tile>Associative Arrays</Tile></Link>
+      <Link to='/loops'><Tile>Loops</Tile></Link>
       <Link to='/functions'><Tile>Functions</Tile></Link>
     </div>
   );
