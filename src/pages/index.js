@@ -23,8 +23,8 @@ const TileList = (props) => {
       <Link to='/gettingStarted'><Tile>Getting Started</Tile></Link>
       <Link to='/helloworld'><Tile>Hello World</Tile></Link>
       <Link to='/variables'><Tile>Variables</Tile></Link>
-      <Link to='/comments'><Tile>Comments</Tile></Link>
       <Link to='/io'><Tile>Input/Output</Tile></Link>
+      <Link to='/comments'><Tile>Comments</Tile></Link>
       <Link to='/strings'><Tile>Strings</Tile></Link>
       <Link to='/basicarrays'><Tile>Basic Arrays</Tile></Link>
       <Link to='/assocarrays'><Tile>Associative Arrays</Tile></Link>
