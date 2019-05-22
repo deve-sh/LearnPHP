@@ -49,7 +49,7 @@ const IndexPage = () => (
 
     <p>Hence, it is actually a good idea to know at least its basics, given that we use the web daily in some form or another. Given that some of the biggest websites like Facebook, Airbnb use it. </p>
 
-    <p><b>Note</b> : You need to have knowledge of HTML before you start.</p>
+    <p><b>Note</b> : You need to have a great amount of knowledge of HTML before you start.</p>
     <TileList/>
     </div>
   </Layout>

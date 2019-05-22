@@ -74,7 +74,8 @@ const Variables = () => {
 !true                # Read as 'Not' True. Gives False.
 !false               # Read as 'Not' False. Gives True.
 true || false        # Logical OR. Returns True if any of the operand is true.
-true && false       # Logical AND. Returns False if any of the operand is false.`}
+true && false       # Logical AND. Returns False if any of the operand is false.`
+}
                 </CodeBlock>
                 <Linker previous = {"/helloworld"} next={"/io"} previousLabel={"Hello World"} nextLabel = {"I/O"}/>
             </div>
