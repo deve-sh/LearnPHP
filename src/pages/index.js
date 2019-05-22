@@ -22,10 +22,11 @@ const TileList = (props) => {
     <div className='titelist'>
       <Link to='/gettingStarted'><Tile>Getting Started</Tile></Link>
       <Link to='/helloworld'><Tile>Hello World</Tile></Link>
-      <Link to='/variables'><Tile>Variables</Tile></Link>
+      <Link to='/variables'><Tile>Variables and Operators</Tile></Link>
       <Link to='/io'><Tile>Input/Output</Tile></Link>
       <Link to='/comments'><Tile>Comments</Tile></Link>
       <Link to='/strings'><Tile>Strings</Tile></Link>
+      <Link to='/conditionals'><Tile>Conditionals</Tile></Link>
       <Link to='/basicarrays'><Tile>Basic Arrays</Tile></Link>
       <Link to='/assocarrays'><Tile>Associative Arrays</Tile></Link>
       <Link to='/functions'><Tile>Functions</Tile></Link>
