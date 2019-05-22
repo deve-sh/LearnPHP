@@ -14,14 +14,8 @@ const Linker = (props) => {
                 <br/><br/>
             </div>
         );
-    }else if(!props.previous){
-        return (
-            <div className='linker'>
-                <Link to = '/'><button className='btn home'>Home</button></Link>
-                <Link to = {props.next}><button className='btn next'>{props.nextLabel}</button></Link>
-                <br/><br/>
-            </div>
-        );
+    }else if(!props.previous && !props.next){
+        return ("Pass enough props!");
     }else if(!props.next){
         return (
         <div className='linker'>
@@ -30,7 +24,13 @@ const Linker = (props) => {
             <br/><br/>
         </div>);
     }else{
-        return ("Pass enough props!");
+        return (
+            <div className='linker'>
+                <Link to = '/'><button className='btn home'>Home</button></Link>
+                <Link to = {props.next}><button className='btn next'>{props.nextLabel}</button></Link>
+                <br/><br/>
+            </div>
+        );
     }
 }
 

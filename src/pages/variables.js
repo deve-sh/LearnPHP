@@ -31,8 +31,10 @@ const Variables = () => {
                     {"\t\$a = 1.5;\n\t\$x = 5;\n\t\$y = true;\n\t$z = \"This is text.\";"}
                     {"\n?>"}
                 </CodeBlock>
-                In the above codeblock, there are variables named a, x, y and z.<br/><br/>x is of type <code>integer</code>, a is of type <code>float (Decimal Numbers)</code>, y is of type <code>boolean</code> (True or False), z is of type <code>string</code> (More on strings in the next tutorial.) The type of data a variable holds is called its data type.
+                In the above codeblock, there are variables named a, x, y and z.<br/><br/>x is of type <code>integer</code>, a is of type <code>float (Decimal Numbers)</code>, y is of type <code>boolean</code> (True or False), z is of type <code>string</code> (More on strings in the next tutorial.)<br/>
+                <br/> Just remember for now, that strings / text have to be enclosed in quotation marks. (" " or  ' ')
                 <br/><br/>
+                The type of data a variable holds is called its <u>data type</u>.<br/><br/>
                 Variables can also be set to NULL, which means that the variables exist, but do not contain any value.
                 <br/><br/>
                 <h3>Operations on variables</h3>
@@ -48,7 +50,7 @@ const Variables = () => {
 # ARITEMATIC AND SHORTHAND ASSIGNMENT OPERATORS
 # ----------------------------------------------
 
-\$z = \$x + \$y        # Assignment with addition of two values
+\$z = \$x + \$y          # Assignment with addition of two values
 \$x += 6               # Adds 6 to x and stores it inside x. Equivalent to x = x + 6.
 \$y -= 5               # Subtracts 5 from y and stores it inside y.
 \$x *= 3               # Multiplies 3 to x and stores it inside x.
@@ -74,9 +76,16 @@ const Variables = () => {
 !true                # Read as 'Not' True. Gives False.
 !false               # Read as 'Not' False. Gives True.
 true || false        # Logical OR. Returns True if any of the operand is true.
-true && false       # Logical AND. Returns False if any of the operand is false.`
+true && false        # Logical AND. Returns False if any of the operand is false.`
 }
                 </CodeBlock>
+                
+                <h3>Checking for existence of a variable.</h3>
+                It can be checked if a variable exists by using the <code>isset</code> function (More on functions later.) It gives true or false depending on the existence of the variable.
+                <br/><br/>
+                We will be learning how to use functions and validations in the upcoming tutorials.
+                <br/><br/>
+                Knowing this is important as there will be times when you need to check if a variable exists inside a program or not given PHP does not give you an error when you try to use a variable that has not been defined or created yet. It just gives an empty value in its place.
                 <Linker previous = {"/helloworld"} next={"/io"} previousLabel={"Hello World"} nextLabel = {"I/O"}/>
             </div>
         </Layout>);

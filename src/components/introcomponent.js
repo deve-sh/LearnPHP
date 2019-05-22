@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 // Intro Part Component
 
@@ -9,7 +8,7 @@ const IntroComponent = (props) => {
       <div className='introheading'>
         {props.heading}
       </div>
-      <p>{props.desc}</p>
+      <p style={{fontFamily:`cambria`}}>{props.desc}</p>
       <br/>
       {props.children}
     </div>);
