@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
         </h3>
       </div>
       <div className='col col-sm-6' style={{color: 'white',textAlign:'right',fontFamily:`sans-serif`, fontSize: `0.9em`}}>
-        <a href='https://github.com/deve-sh' target='_blank'>Github</a>
+        <a href='https://github.com/deve-sh/LearnPHP' target='_blank'>Github</a>
       </div>
     </div>
   </header>
