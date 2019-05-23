@@ -51,6 +51,10 @@ const Variables = () => {
 # ----------------------------------------------
 
 \$z = \$x + \$y          # Assignment with addition of two values
+\$z = \$y - $x          # Subtraction
+\$z = \$y * 2           # Multiplication
+\$z = \$x / 3           # Division
+\$z = \$x % 2           # Modulo Operator, returns the remainder when x is divided by 2.
 \$x += 6               # Adds 6 to x and stores it inside x. Equivalent to x = x + 6.
 \$y -= 5               # Subtracts 5 from y and stores it inside y.
 \$x *= 3               # Multiplies 3 to x and stores it inside x.

@@ -37,6 +37,16 @@ const BasicArrays = () => {
                     {"\n?>"}
                 </CodeBlock>
 
+                <h3>
+                    Finding Length of an array.
+                </h3>
+                <p>
+                    Its a good idea to know how to find the number of elements are inside an array. That is found by using the <code>count</code> function.
+                    <br/>
+                    <br/>
+                    For example : <code>count($arr)</code> returns the number of elements inside the array $arr.
+                </p>
+
                 <h3>Accessing Values inside an array.</h3>
 
                 <p>Well, we have created an array, now let's learn how to access the elements. The counting of elements inside an array starts from 0 (I.E : Index 0).</p>

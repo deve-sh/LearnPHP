@@ -51,7 +51,7 @@ const Comments = () => {
                     {"<?php\n\t\$x = 5;\t\t// x is a variable.\n\t$y = 6;\t\t# y is another variable.\n\n\t/*\n\t\tThe next line adds the two variables.\n\t*/\n\n\t$sum = \$x + \$y;\n\techo $sum;\n?>"}
                 </CodeBlock>
 
-                The output of the above will be <code>11</code>. All the comments will be ignored and not executed.
+                <p>The output of the above will be <code>11</code>. All the comments will be ignored and not executed.</p>
 
                 <Linker previous={"/io"} next={"/strings"} previousLabel={"I/O"} nextLabel={"Strings"}/>
             </div>
