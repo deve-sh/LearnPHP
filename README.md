@@ -4,13 +4,7 @@ A website to learn the basics of PHP.
 
 Build using Gatsby.
 
-[See it live]().
-
-## Contributions
-
-The pages of the app are in the ```src/pages``` folder. The UI Components are in the ```src/components``` folder.
-
-Just modify any file you deem necessary and start a pull request to the repo.
+[See it live](https://learnphp.netlify.com).
 
 ## Contact and Issues
 
